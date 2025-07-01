@@ -3,38 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PSYALYSIS</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: #121212;
-      color: #eee;
-      margin-top: 50px;
-    }
-    h1 {
-      color: #1DB954;
-    }
-    a {
-      display: block;
-      margin: 15px 0;
-      color: #1DB954;
-      font-size: 1.2em;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <title>Artsy Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>PSYALYSIS</h1>
-  <p>Follow me on:</p>
-  <a href="https://twitch.tv/yourchannel" target="_blank">🎧 Twitch</a>
-  <a href="https://youtube.com/yourchannel" target="_blank">📺 YouTube</a>
-  <a href="https://soundcloud.com/yourprofile" target="_blank">🎶 SoundCloud</a>
-  <a href="https://instagram.com/yourprofile" target="_blank">📸 Instagram</a>
-  <a href="https://twitter.com/yourprofile" target="_blank">🐦 Twitter</a>
-  <a href="mailto:youremail@example.com">✉️ Email Me</a>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Minimalist artist exploring the beauty of simplicity through black and white mediums.</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="gallery">
+        <figure>
+          <img src="https://via.placeholder.com/300x200?text=Artwork+1" alt="Artwork 1" />
+          <figcaption>Artwork Title 1</figcaption>
+        </figure>
+        <figure>
+          <img src="https://via.placeholder.com/300x200?text=Artwork+2" alt="Artwork 2" />
+          <figcaption>Artwork Title 2</figcaption>
+        </figure>
+        <figure>
+          <img src="https://via.placeholder.com/300x200?text=Artwork+3" alt="Artwork 3" />
+          <figcaption>Artwork Title 3</figcaption>
+        </figure>
+        <!-- Add more artwork as needed -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
 </body>
 </html>
